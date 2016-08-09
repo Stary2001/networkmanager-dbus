@@ -1,5 +1,5 @@
 module WirelessDeviceMock
   def all_properties
-    data['ethernet']['properties']
+    data['wireless']['properties']
   end
 end

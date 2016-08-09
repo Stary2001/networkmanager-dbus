@@ -74,11 +74,11 @@
      "Capabilities": 3
      "Ip4Address": 0
      "State": 30
-     "ActiveConnection": "/"
-     "Ip4Config": "/"
-     "Dhcp4Config": "/"
-     "Ip6Config": "/"
-     "Dhcp6Config": "/"
-     "Managed": yes
-     "FirmwareMissing": no
-     "DeviceType": 2
+  wireless:
+    properties:
+      "HwAddress": "08:00:27:FB:3B:10"
+      "PermHwAddress": "08:00:27:FB:3B:10"
+      "Mode": 2
+      "Bitrate": 65000
+      "ActiveAccessPoint": "/org/freedesktop/NetworkManager/AccessPoint/0"
+      "WirelessCapabilities": 63
