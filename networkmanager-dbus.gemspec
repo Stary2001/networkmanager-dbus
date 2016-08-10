@@ -19,17 +19,17 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # dependencies
-  s.add_development_dependency "rake"
-  s.add_development_dependency "pry"
+  #s.add_development_dependency "rake"
+  #s.add_development_dependency "pry"
   s.add_development_dependency "rspec"
   s.add_development_dependency "rr"
-  s.add_development_dependency "active_support"
-  s.add_development_dependency "guard"
-  s.add_development_dependency "guard-shell"
-  s.add_development_dependency "growl-rspec"
-  s.add_development_dependency "growl"
-  s.add_development_dependency "json"
-  s.add_development_dependency "marilyn-rpc"
+  s.add_development_dependency "activesupport"
+  #s.add_development_dependency "guard"
+  #s.add_development_dependency "guard-shell"
+  #s.add_development_dependency "growl-rspec"
+  #s.add_development_dependency "growl"
+  #s.add_development_dependency "json"
+  #s.add_development_dependency "marilyn-rpc"
   s.add_runtime_dependency 'ipaddress'
   s.add_runtime_dependency "ruby-dbus"
 end
